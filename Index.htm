@@ -2,33 +2,45 @@
 <html>
 <title>CSM Status</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
 <div class="header" id="myheader">
+
 <div class="lefttop">
     <a href="https://nostalgiahh.github.io/CSM-CharStat/Index.htm">
         Home
     </a>
 </div>
+
 <a href id="csm"> </a> CSM Character Status
+
 <div class="rightytop">
     <a href="https://nostalgiahh.github.io/CSM-CharStat/about.htm">
         About
     </a>
 </div>
+
 <div class="righttop">
 <a href="https://discordapp.com/users/661675273237954600">
         Contact
        </a>
        </div>
 </div>
+
+
+
 <head>
 <style>
+
 #csm {
     font-size: 20px;
 }
+
 a {
     text-decoration: none;
     color: white;
 }
+
 .rightytop {
     float:right;
     text-align: center;
@@ -36,6 +48,7 @@ a {
     font-size: 20px;
     margin-right: 30px;
 }
+
     .righttop {
         float:right;
         text-align:center;
@@ -43,6 +56,8 @@ a {
         font-size: 20px;
         margin-right: 1px;
     }
+
+
 .lefttop {
     float:left;
     text-align: center;
@@ -60,20 +75,27 @@ a {
     font-size: 20px;
     
     
+
+
 }
 #main {
     text-align: center;
 }
+
 body {
     background-image: url("katana.png");
 }
+
 a:hover {
     background-color: gray;
+
 }
+
 .sticky {position: fixed;
 top: 0;
 width: 100%;
 }
+
 footer {
     background-color: #161616;
     width: 100%; 
@@ -83,6 +105,7 @@ footer {
     margin-bottom: 0;
     position: absolute;
 }
+
 .box {
     width: 500px;
     height: 400px;
@@ -91,6 +114,7 @@ footer {
     padding: 50px;
     opacity: 0.4;
     
+
 }
 .align {
     display: flex;
@@ -127,13 +151,18 @@ footer {
     color: black;
     font-size: 25px;
 }
+
 .b1:hover,.b2:hover,.b3:hover,.b4:hover {
 background-color: green;
 }
+
 </style>
+
 </head>
+
 <div clas="body">
 <body>
+
 <br><br><br>
 <br><br><br><br><br><br><br>
 <body>
@@ -142,10 +171,6 @@ background-color: green;
 <div class="box">
 
     <div class="align">
-<a href=" https://nostalgiahh.github.io/CSM-CharStat/Status.htm"><button class="b1">All</button></a>
-<button class="b2">Anime Only</button>
-<button class="b3">Part 1</button>
-<button class="b4" onclick="window.location.href = 'https://nostalgiahh.github.io/CSM-CharStat/Status.htm';">Part 2</button></a>
 <button class="b1" onclick="window.location.href = 'https://nostalgiahh.github.io/CSM-CharStat/Status.htm';">All</button></a>
 <button class="b2" onclick="window.location.href = 'https://nostalgiahh.github.io/CSM-CharStat/Status2.htm';">Anime Only</button>
 <button class="b3" onclick="window.location.href = 'https://nostalgiahh.github.io/CSM-CharStat/Status3.htm';">Part 1</button>
@@ -161,9 +186,13 @@ background-color: green;
 <br><br><br><br><br><br><br><br><br>
 </body>
 </div>
+
+
 <footer>
     <p>Call us at 1-866-925-4419 UWU!!!</p>
 </footer>
+
+
 <html>
     <body>
 <script>
@@ -171,5 +200,14 @@ background-color: green;
     
     var header = document.getElementById("myHeader");
     var sticky = header.offsetTop;
- 
- 
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+    </script>
+</body>
+    </html>
